@@ -15,7 +15,7 @@ jobs:
       - name: Zip create_page_view code
         run: |
           cd lambdas
-          zip -r ../lambda/create_page_view.zip .
+          zip -r ../lambdas/create_page_view.zip .
         shell: bash
 
       - name: Set up Terraform
