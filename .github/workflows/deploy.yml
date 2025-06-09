@@ -14,7 +14,7 @@ jobs:
 
       - name: Zip create_page_view Lambda
         run: |
-          cd lambdas/create_page_view
+          cd lambdas/page_views/create_page_view.p
           zip -r ../../create_page_view.zip .
         shell: bash
 
